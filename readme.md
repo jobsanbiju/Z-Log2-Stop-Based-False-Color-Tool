@@ -55,7 +55,7 @@ The result is a common exposure language that remains consistent regardless of c
 ### What I Learned
 
 * Monitoring exposure in stops is easier and more intuitive than monitoring exposure in IRE.
-* Exposure decisions become more consistent across different cameras and log curves.
+* Exposure decisions can be communicated more consistently across different cameras and log curves.
 * Highlight and shadow placement become easier to visualize relative to middle grey.
 * Exposure can be communicated in a common language regardless of camera brand.
 
@@ -81,7 +81,7 @@ This becomes particularly useful when matching cameras. Instead of exposing one 
 
 > The background is two stops below middle grey.
 
-Those relationships remain meaningful regardless of the camera being used, making exposure decisions easier to communicate and camera matching easier to achieve.
+Those relationships remain meaningful regardless of the camera being used, making exposure decisions easier to communicate and providing a more consistent starting point when matching cameras.
 
 I wanted the same workflow for Z CAM Z-Log2.
 
