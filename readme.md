@@ -71,56 +71,33 @@ The result is a monitoring tool designed specifically around how Z-Log2 behaves,
 
 ## Features
 
-<table>
-  <tr>
-    <td width="50%">
-      <strong>Exposure Workflow</strong>
-      <br><br>
-      - Stop-based exposure monitoring<br>
-      - 18% middle grey centered around approximately 40 IRE<br>
-      - Practical grey zone around 37-43 IRE<br>
-      - EL Zone-inspired color mapping
-    </td>
-    <td width="50%">
-      <strong>Z-Log2 Monitoring</strong>
-      <br><br>
-      - Designed specifically for Z CAM Z-Log2<br>
-      - Minimal sensitivity to white balance changes<br>
-      - Works as a monitoring LUT on cameras and external monitors that support LUT loading
-    </td>
-  </tr>
-</table>
+- Stop-based exposure monitoring
+- 18% middle grey centered around approximately 40 IRE
+- Practical grey zone around 37-43 IRE
+- EL Zone-inspired color mapping
+- Designed specifically for Z CAM Z-Log2
+- Minimal sensitivity to white balance changes
+- Works as a monitoring LUT on cameras and external monitors that support LUT loading
 
 ---
 
 ## Included
 
-<table>
-  <tr>
-    <td align="center" width="50%">
-      <strong><code>Z-Log2_to_El-Zone-like_jobsanbiju-v1.1.cube</code></strong>
-      <br><br>
-      Monitoring LUT. Load onto your monitor and use it as an exposure aid while shooting Z-Log2.
-    </td>
-    <td align="center" width="50%">
-      <strong><code>zlog2_stop_false_color_guide.png</code></strong>
-      <br><br>
-      Reference chart showing each exposure zone and its corresponding color.
-    </td>
-  </tr>
-</table>
+`Z-Log2_to_El-Zone-like_jobsanbiju-v1.1.cube`  
+Monitoring LUT. Load onto your monitor and use it as an exposure aid while shooting Z-Log2.
+
+`zlog2_stop_false_color_guide.png`  
+Reference chart showing each exposure zone and its corresponding color.
 
 ---
 
 ## Exposure Reference
 
-<table>
-  <tr>
-    <td align="center" width="33%"><strong>Shadows</strong><br><sub>-6 to -1/2</sub></td>
-    <td align="center" width="33%"><strong>18% Grey</strong><br><sub>Practical 37-43 IRE zone</sub></td>
-    <td align="center" width="33%"><strong>Highlights</strong><br><sub>+1/2 to +6</sub></td>
-  </tr>
-</table>
+<p align="center">
+  <strong>Shadows</strong>: -6 to -1/2 &nbsp;&nbsp;|&nbsp;&nbsp;
+  <strong>18% Grey</strong>: practical 37-43 IRE zone &nbsp;&nbsp;|&nbsp;&nbsp;
+  <strong>Highlights</strong>: +1/2 to +6
+</p>
 
 <p align="center">
   <img src="zlog2_stop_false_color_guide.png" alt="Z-Log2 Stop-Based False Color Guide" width="900">
@@ -154,18 +131,9 @@ The result is a monitoring tool designed specifically around how Z-Log2 behaves,
 
 Built using Thatcher Freeman's reverse-engineered Z-Log2 transform.
 
-<table>
-  <tr>
-    <td align="center"><strong>1. Decode</strong></td>
-    <td align="center"><strong>2. Measure</strong></td>
-    <td align="center"><strong>3. Protect</strong></td>
-  </tr>
-  <tr>
-    <td align="center">Z-Log2 is converted into scene-linear values.</td>
-    <td align="center">Exposure is calculated relative to 18% middle grey using the green channel.</td>
-    <td align="center">Max RGB is used for clipping detection.</td>
-  </tr>
-</table>
+1. Decode: Z-Log2 is converted into scene-linear values.
+2. Measure: exposure is calculated relative to 18% middle grey using the green channel.
+3. Protect: max RGB is used for clipping detection.
 
 Development included:
 
@@ -179,14 +147,6 @@ Development included:
 
 ## Notes
 
-<table>
-  <tr>
-    <td align="center"><strong>Monitoring Tool</strong></td>
-    <td align="center"><strong>Not a Look LUT</strong></td>
-    <td align="center"><strong>Use With Waveform</strong></td>
-  </tr>
-</table>
-
 > This LUT is intended for monitoring and exposure evaluation only.
 
 - It is not intended as a grading LUT.
@@ -198,15 +158,9 @@ Development included:
 
 ## Credits
 
-<table>
-  <tr>
-    <td align="left">
-      Designed and developed by <strong>jobsanbiju</strong>.
-      <br><br>
-      Special thanks to <strong>Thatcher Freeman</strong> for his work reverse-engineering the Z-Log2 curve and making that research publicly available to the community.
-    </td>
-  </tr>
-</table>
+Designed and developed by **jobsanbiju**.
+
+Special thanks to **Thatcher Freeman** for his work reverse-engineering the Z-Log2 curve and making that research publicly available to the community.
 
 ---
 
@@ -216,20 +170,20 @@ Development included:
   <img src="readme_assets/support_palette.svg" alt="Z-Log2 false color palette strip" width="720">
 </p>
 
-<table>
-  <tr>
-    <td align="center" width="720">
-      <br>
-      <strong>Support future development, testing, and documentation</strong>
-      <br><br>
-      If this LUT has been useful to you, support is completely optional but appreciated.
-      <br><br>
-      <a href="https://ko-fi.com/jobsanbiju"><strong>Support on Ko-fi</strong></a>
-      <br><br>
-      <sub>Contributions help fund future LUTs, DCTLs, camera tools, testing, and educational resources for filmmakers.</sub>
-      <br><br>
-    </td>
-  </tr>
-</table>
+<p>
+  <strong>Support future development, testing, and documentation</strong>
+</p>
+
+<p>
+  If this LUT has been useful to you, support is completely optional but appreciated.
+</p>
+
+<p>
+  <a href="https://ko-fi.com/jobsanbiju"><strong>Support on Ko-fi</strong></a>
+</p>
+
+<p>
+  <sub>Contributions help fund future LUTs, DCTLs, camera tools, testing, and educational resources for filmmakers.</sub>
+</p>
 
 </div>
