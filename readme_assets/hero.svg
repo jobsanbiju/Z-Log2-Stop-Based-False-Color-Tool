@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="430" viewBox="0 0 1600 430" role="img" aria-labelledby="title desc">
+  <title id="title">Z-Log2 Stop-Based False Color Tool</title>
+  <desc id="desc">A clean transparent title graphic with an accurate false color strip and middle grey reference.</desc>
+
+  <defs>
+    <linearGradient id="softShadow" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#171717"/>
+      <stop offset="1" stop-color="#0f0f0f"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="64" y="58" width="1472" height="314" rx="22" fill="url(#softShadow)"/>
+  <rect x="65" y="59" width="1470" height="312" rx="21" fill="none" stroke="#2c2c2c" stroke-width="2"/>
+  <g transform="translate(112 105)">
+    <text x="0" y="0" fill="#a8a8a8" font-family="Segoe UI, Arial, sans-serif" font-size="24" font-weight="700" letter-spacing="3">Z CAM Z-LOG2</text>
+    <text x="0" y="76" fill="#f4f4f4" font-family="Segoe UI, Arial, sans-serif" font-size="78" font-weight="800">Stop-Based False Color</text>
+    <text x="0" y="134" fill="#c9c9c9" font-family="Segoe UI, Arial, sans-serif" font-size="32" font-weight="500">Exposure monitoring LUT for Z-Log2 shooters.</text>
+  </g>
+
+  <g transform="translate(112 282)">
+    <rect x="0" y="0" width="91" height="38" fill="#000000"/>
+    <rect x="91" y="0" width="91" height="38" fill="#5b4399"/>
+    <rect x="182" y="0" width="91" height="38" fill="#1657a7"/>
+    <rect x="273" y="0" width="91" height="38" fill="#018bd6"/>
+    <rect x="364" y="0" width="91" height="38" fill="#165b2e"/>
+    <rect x="455" y="0" width="91" height="38" fill="#2a863b"/>
+    <rect x="546" y="0" width="91" height="38" fill="#8fc120"/>
+    <rect x="637" y="0" width="91" height="38" fill="#898989"/>
+    <rect x="728" y="0" width="91" height="38" fill="#fef104"/>
+    <rect x="819" y="0" width="91" height="38" fill="#fff9b1"/>
+    <rect x="910" y="0" width="91" height="38" fill="#f1832e"/>
+    <rect x="1001" y="0" width="91" height="38" fill="#dead50"/>
+    <rect x="1092" y="0" width="91" height="38" fill="#e6002f"/>
+    <rect x="1183" y="0" width="91" height="38" fill="#ec6d5a"/>
+    <rect x="1274" y="0" width="91" height="38" fill="#ffffff"/>
+    <rect x="0" y="0" width="1365" height="38" fill="none" stroke="#ffffff" stroke-opacity="0.18"/>
+    <text x="0" y="72" fill="#8f8f8f" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="2">-6</text>
+    <text x="632" y="72" fill="#8f8f8f" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="2">18% GREY</text>
+    <text x="1339" y="72" text-anchor="end" fill="#8f8f8f" font-family="Segoe UI, Arial, sans-serif" font-size="18" font-weight="700" letter-spacing="2">+6</text>
+  </g>
+</svg>
