@@ -54,12 +54,34 @@ The result is a common exposure language that remains consistent regardless of c
 
 ### What I Learned
 
-- Monitoring exposure in stops is easier and more intuitive than monitoring exposure in IRE.
-- Exposure decisions become more consistent across different cameras and log curves.
-- Highlight and shadow placement become easier to visualize relative to middle grey.
-- Exposure can be communicated in a common language regardless of camera brand.
+* Monitoring exposure in stops is easier and more intuitive than monitoring exposure in IRE.
+* Exposure decisions become more consistent across different cameras and log curves.
+* Highlight and shadow placement become easier to visualize relative to middle grey.
+* Exposure can be communicated in a common language regardless of camera brand.
+
+Instead of asking:
+
+> Is skin at 63 IRE or 67 IRE?
+
+The question becomes:
+
+> Is skin one stop above middle grey?
 
 That shift sounds small, but it fundamentally changes how exposure is evaluated.
+
+Another advantage of a stop-based system is that it creates a more consistent exposure workflow across different camera models.
+
+While multiple Z CAM cameras share the same Z-Log2 transfer function, differences in sensor characteristics and available dynamic range can influence how exposure decisions are made in practice. A stop-based approach focuses on the relationship between scene elements and middle grey rather than their position on a waveform.
+
+This becomes particularly useful when matching cameras. Instead of exposing one camera by targeting specific IRE values and then repeating that process on another camera, exposure can be described using a common language:
+
+> Skin is approximately one stop above middle grey.
+
+> The window is four stops above middle grey.
+
+> The background is two stops below middle grey.
+
+Those relationships remain meaningful regardless of the camera being used, making exposure decisions easier to communicate and camera matching easier to achieve.
 
 I wanted the same workflow for Z CAM Z-Log2.
 
