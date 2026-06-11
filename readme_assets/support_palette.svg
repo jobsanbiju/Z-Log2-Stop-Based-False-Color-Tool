@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="52" viewBox="0 0 1200 52" role="img" aria-labelledby="title desc">
+  <title id="title">Z-Log2 false color palette</title>
+  <desc id="desc">A compact horizontal false-color palette strip from shadows through middle grey to highlights.</desc>
+  <rect width="1200" height="52" rx="10" fill="#111111"/>
+  <g transform="translate(14 12)">
+    <rect x="0" y="0" width="78" height="28" fill="#000000"/>
+    <rect x="78" y="0" width="78" height="28" fill="#5b4399"/>
+    <rect x="156" y="0" width="78" height="28" fill="#1657a7"/>
+    <rect x="234" y="0" width="78" height="28" fill="#018bd6"/>
+    <rect x="312" y="0" width="78" height="28" fill="#165b2e"/>
+    <rect x="390" y="0" width="78" height="28" fill="#2a863b"/>
+    <rect x="468" y="0" width="78" height="28" fill="#8fc120"/>
+    <rect x="546" y="0" width="78" height="28" fill="#898989"/>
+    <rect x="624" y="0" width="78" height="28" fill="#fef104"/>
+    <rect x="702" y="0" width="78" height="28" fill="#fff9b1"/>
+    <rect x="780" y="0" width="78" height="28" fill="#f1832e"/>
+    <rect x="858" y="0" width="78" height="28" fill="#dead50"/>
+    <rect x="936" y="0" width="78" height="28" fill="#e6002f"/>
+    <rect x="1014" y="0" width="78" height="28" fill="#ec6d5a"/>
+    <rect x="1092" y="0" width="78" height="28" fill="#ffffff"/>
+    <rect x="0" y="0" width="1170" height="28" fill="none" stroke="#ffffff" stroke-opacity="0.18"/>
+  </g>
+</svg>

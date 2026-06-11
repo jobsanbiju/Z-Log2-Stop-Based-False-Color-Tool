@@ -220,6 +220,10 @@ Development included:
 
 <div align="center">
 
+<p>
+  <img src="readme_assets/support_palette.svg" alt="Z-Log2 false color palette strip" width="720">
+</p>
+
 <table>
   <tr>
     <td align="center" width="720">
