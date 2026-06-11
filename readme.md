@@ -116,9 +116,9 @@ The result is a monitoring tool designed specifically around how Z-Log2 behaves,
 
 <table>
   <tr>
-    <td align="center" width="33%"><strong>Shadows</strong><br><sub>-6 to -1</sub></td>
+    <td align="center" width="33%"><strong>Shadows</strong><br><sub>-6 to -1/2</sub></td>
     <td align="center" width="33%"><strong>18% Grey</strong><br><sub>Practical 37-43 IRE zone</sub></td>
-    <td align="center" width="33%"><strong>Highlights</strong><br><sub>+1 to +6</sub></td>
+    <td align="center" width="33%"><strong>Highlights</strong><br><sub>+1/2 to +6</sub></td>
   </tr>
 </table>
 
