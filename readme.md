@@ -38,14 +38,6 @@ The result is a monitoring tool designed around exposure placement rather than w
 
 ## Why This Exists
 
-<table>
-  <tr>
-    <td align="center" width="33%"><strong>Middle Grey</strong><br><sub>Exposure anchor</sub></td>
-    <td align="center" width="33%"><strong>Stops</strong><br><sub>Placement language</sub></td>
-    <td align="center" width="33%"><strong>Z-Log2</strong><br><sub>Camera-specific mapping</sub></td>
-  </tr>
-</table>
-
 After using the EL Zone system across multiple camera systems, I found it fundamentally changed how I approached exposure.
 
 Traditional false color systems are usually built around IRE values. While useful, they become harder to interpret when monitoring log footage because log curves are logarithmically encoded. Different log curves place the same scene exposure at different IRE values, making it difficult to develop a consistent exposure workflow across cameras.
