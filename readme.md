@@ -67,11 +67,9 @@ While multiple Z CAM cameras share the same Z-Log2 transfer function, difference
 
 This becomes particularly useful when matching cameras. Instead of exposing one camera by targeting specific IRE values and then repeating that process on another camera, exposure can be described using a common language:
 
-> Skin is approximately one stop above middle grey.
-
-> The window is four stops above middle grey.
-
-> The background is two stops below middle grey.
+- Skin is approximately one stop above middle grey.
+- The window is four stops above middle grey.
+- The background is two stops below middle grey.
 
 Those relationships remain meaningful regardless of the camera being used, making exposure decisions easier to communicate and providing a more consistent starting point when matching cameras.
 
