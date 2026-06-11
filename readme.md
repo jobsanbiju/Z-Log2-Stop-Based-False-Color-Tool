@@ -127,7 +127,7 @@ The result is a monitoring tool designed specifically around how Z-Log2 behaves,
 </p>
 
 <p align="center">
-  <sub>18% middle grey is centered around approximately 40 IRE, with a practical grey zone around 37-43 IRE.</sub>
+  <sub>For Z CAM Z-Log2, 18% middle grey is centered around approximately 40 IRE, with a practical grey zone around 37-43 IRE.</sub>
 </p>
 
 | Zone | Relative Exposure |
