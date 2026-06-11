@@ -25,15 +25,8 @@
 
 ## Overview
 
-<table>
-  <tr>
-    <td bgcolor="#898989" width="6">&nbsp;</td>
-    <td>
-      <strong>Traditional false color systems are typically built around IRE values.</strong><br>
-      This LUT takes a different approach: it evaluates exposure relative to middle grey in stops.
-    </td>
-  </tr>
-</table>
+> Traditional false color systems are typically built around IRE values.  
+> This LUT takes a different approach: it evaluates exposure relative to middle grey in stops.
 
 Inspired by the EL Zone philosophy and built specifically around Z CAM's Z-Log2 curve, this project aims to bring a stop-based exposure workflow to cameras and monitors that do not natively support one.
 
@@ -63,16 +56,9 @@ Instead of monitoring display brightness, exposure is evaluated relative to 18% 
 
 The result is a common exposure language that remains consistent regardless of camera, monitoring transform, or viewing LUT.
 
-<table>
-  <tr>
-    <td align="center"><strong>IRE-based question</strong></td>
-    <td align="center"><strong>Stop-based question</strong></td>
-  </tr>
-  <tr>
-    <td align="center">Is skin at 63 IRE or 67 IRE?</td>
-    <td align="center">Is skin one stop above middle grey?</td>
-  </tr>
-</table>
+<p align="center">
+  <img src="readme_assets/ire_vs_stops.svg" alt="IRE-Based Exposure versus Stop-Based Exposure" width="100%">
+</p>
 
 ### What I Learned
 
@@ -233,26 +219,6 @@ Development included:
 ---
 
 <div align="center">
-
-<table>
-  <tr>
-    <td bgcolor="#000000" width="36">&nbsp;</td>
-    <td bgcolor="#5b4399" width="36">&nbsp;</td>
-    <td bgcolor="#1657a7" width="36">&nbsp;</td>
-    <td bgcolor="#018bd6" width="36">&nbsp;</td>
-    <td bgcolor="#165b2e" width="36">&nbsp;</td>
-    <td bgcolor="#2a863b" width="36">&nbsp;</td>
-    <td bgcolor="#8fc120" width="36">&nbsp;</td>
-    <td bgcolor="#898989" width="36">&nbsp;</td>
-    <td bgcolor="#fef104" width="36">&nbsp;</td>
-    <td bgcolor="#fff9b1" width="36">&nbsp;</td>
-    <td bgcolor="#f1832e" width="36">&nbsp;</td>
-    <td bgcolor="#dead50" width="36">&nbsp;</td>
-    <td bgcolor="#e6002f" width="36">&nbsp;</td>
-    <td bgcolor="#ec6d5a" width="36">&nbsp;</td>
-    <td bgcolor="#ffffff" width="36">&nbsp;</td>
-  </tr>
-</table>
 
 <table>
   <tr>
