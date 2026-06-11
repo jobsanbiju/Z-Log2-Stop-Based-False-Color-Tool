@@ -59,14 +59,6 @@ The result is a common exposure language that remains consistent regardless of c
 * Highlight and shadow placement become easier to visualize relative to middle grey.
 * Exposure can be communicated in a common language regardless of camera brand.
 
-Instead of asking:
-
-> Is skin at 63 IRE or 67 IRE?
-
-The question becomes:
-
-> Is skin one stop above middle grey?
-
 That shift sounds small, but it fundamentally changes how exposure is evaluated.
 
 Another advantage of a stop-based system is that it creates a more consistent exposure workflow across different camera models.
