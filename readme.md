@@ -83,11 +83,20 @@ The result is a monitoring tool designed specifically around how Z-Log2 behaves,
 
 ## Included
 
-`Z-Log2_to_El-Zone-like_jobsanbiju-v1.1.cube`  
-Monitoring LUT. Load onto your monitor and use it as an exposure aid while shooting Z-Log2.
-
-`zlog2_stop_false_color_guide.png`  
-Reference chart showing each exposure zone and its corresponding color.
+<table>
+  <tr>
+    <td align="center" width="50%">
+      <strong><code>Z-Log2_to_El-Zone-like_jobsanbiju-v1.1.cube</code></strong>
+      <br><br>
+      Monitoring LUT. Load onto your monitor and use it as an exposure aid while shooting Z-Log2.
+    </td>
+    <td align="center" width="50%">
+      <strong><code>zlog2_stop_false_color_guide.png</code></strong>
+      <br><br>
+      Reference chart showing each exposure zone and its corresponding color.
+    </td>
+  </tr>
+</table>
 
 ---
 
